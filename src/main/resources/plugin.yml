@@ -1,0 +1,21 @@
+name: BananCustomItems
+version: 1.0.0
+main: pl.banansmp.customitems.BananCustomItems
+api-version: '1.21'
+description: GUI z customowymi itemami dla BananSMP
+author: BananSMP
+commands:
+  citems:
+    description: Otwiera menu customowych itemow
+    aliases: [customitems, customowe]
+    usage: /citems [reload|give <gracz> <id> [ilosc]]
+permissions:
+  banansmp.customitems.use:
+    description: Pozwala otworzyc menu
+    default: true
+  banansmp.customitems.take:
+    description: Pozwala odbierac itemy z menu
+    default: op
+  banansmp.customitems.admin:
+    description: reload i give
+    default: op

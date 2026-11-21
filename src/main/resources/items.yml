@@ -1,0 +1,559 @@
+# Lista customowych itemow. name/lore uzywaja MiniMessage.
+# Pola: category, material, name, lore, enchants, glow, unbreakable, color, item-model.
+# item-model: np. banansmp:fioletowy-miecz (model z resource packa) - opcjonalnie.
+items:
+  fioletowy-helm:
+    category: "Zbroje"
+    material: NETHERITE_HELMET
+    name: "<dark_purple>Fioletowy Hełm"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      respiration: 3
+      aqua_affinity: 1
+    glow: true
+  fioletowy-napiersnik:
+    category: "Zbroje"
+    material: NETHERITE_CHESTPLATE
+    name: "<dark_purple>Fioletowy Napierśnik"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      thorns: 3
+    glow: true
+  fioletowe-spodnie:
+    category: "Zbroje"
+    material: NETHERITE_LEGGINGS
+    name: "<dark_purple>Fioletowe Spodnie"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      swift_sneak: 3
+    glow: true
+  fioletowe-buty:
+    category: "Zbroje"
+    material: NETHERITE_BOOTS
+    name: "<dark_purple>Fioletowe Buty"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      feather_falling: 5
+      depth_strider: 3
+    glow: true
+  kosmiczny-helm:
+    category: "Zbroje"
+    material: DIAMOND_HELMET
+    name: "<light_purple>Kosmiczny Hełm"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      respiration: 3
+      aqua_affinity: 1
+    glow: true
+  kosmiczny-napiersnik:
+    category: "Zbroje"
+    material: DIAMOND_CHESTPLATE
+    name: "<light_purple>Kosmiczny Napierśnik"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      thorns: 3
+    glow: true
+  kosmiczne-spodnie:
+    category: "Zbroje"
+    material: DIAMOND_LEGGINGS
+    name: "<light_purple>Kosmiczne Spodnie"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      swift_sneak: 3
+    glow: true
+  kosmiczne-buty:
+    category: "Zbroje"
+    material: DIAMOND_BOOTS
+    name: "<light_purple>Kosmiczne Buty"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      feather_falling: 5
+      depth_strider: 3
+    glow: true
+  fioletowe-skrzydla:
+    category: "Zbroje"
+    material: ELYTRA
+    name: "<dark_purple>Fioletowe Skrzydła"
+    enchants:
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowy-miecz:
+    category: "Bronie"
+    material: NETHERITE_SWORD
+    name: "<dark_purple>Fioletowy Miecz"
+    enchants:
+      sharpness: 7
+      fire_aspect: 2
+      looting: 4
+      sweeping_edge: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowy-kilof:
+    category: "Narzędzia"
+    material: NETHERITE_PICKAXE
+    name: "<dark_purple>Fioletowy Kilof"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowy-topor:
+    category: "Narzędzia"
+    material: NETHERITE_AXE
+    name: "<dark_purple>Fioletowy Topór"
+    enchants:
+      efficiency: 7
+      sharpness: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowa-lopata:
+    category: "Narzędzia"
+    material: NETHERITE_SHOVEL
+    name: "<dark_purple>Fioletowa Łopata"
+    enchants:
+      efficiency: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowa-motyka:
+    category: "Narzędzia"
+    material: NETHERITE_HOE
+    name: "<dark_purple>Fioletowa Motyka"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowy-luk:
+    category: "Bronie"
+    material: BOW
+    name: "<dark_purple>Fioletowy Łuk"
+    enchants:
+      power: 7
+      infinity: 1
+      punch: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowa-kusza:
+    category: "Bronie"
+    material: CROSSBOW
+    name: "<dark_purple>Fioletowa Kusza"
+    enchants:
+      quick_charge: 4
+      piercing: 5
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowy-trojzab:
+    category: "Bronie"
+    material: TRIDENT
+    name: "<dark_purple>Fioletowy Trójząb"
+    enchants:
+      loyalty: 4
+      impaling: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  fioletowa-maczuga:
+    category: "Bronie"
+    material: MACE
+    name: "<dark_purple>Fioletowa Maczuga"
+    enchants:
+      density: 7
+      breach: 4
+      wind_burst: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowy-miecz:
+    category: "Bronie"
+    material: DIAMOND_SWORD
+    name: "<light_purple>Ametystowy Miecz"
+    enchants:
+      sharpness: 7
+      fire_aspect: 2
+      looting: 4
+      sweeping_edge: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowy-kilof:
+    category: "Narzędzia"
+    material: DIAMOND_PICKAXE
+    name: "<light_purple>Ametystowy Kilof"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowy-topor:
+    category: "Narzędzia"
+    material: DIAMOND_AXE
+    name: "<light_purple>Ametystowy Topór"
+    enchants:
+      efficiency: 7
+      sharpness: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowa-lopata:
+    category: "Narzędzia"
+    material: DIAMOND_SHOVEL
+    name: "<light_purple>Ametystowa Łopata"
+    enchants:
+      efficiency: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowa-motyka:
+    category: "Narzędzia"
+    material: DIAMOND_HOE
+    name: "<light_purple>Ametystowa Motyka"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  ametystowy-helm:
+    category: "Zbroje"
+    material: CHAINMAIL_HELMET
+    name: "<light_purple>Ametystowy Hełm"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      respiration: 3
+      aqua_affinity: 1
+    glow: true
+  ametystowy-napiersnik:
+    category: "Zbroje"
+    material: CHAINMAIL_CHESTPLATE
+    name: "<light_purple>Ametystowy Napierśnik"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      thorns: 3
+    glow: true
+  ametystowe-spodnie:
+    category: "Zbroje"
+    material: CHAINMAIL_LEGGINGS
+    name: "<light_purple>Ametystowe Spodnie"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      swift_sneak: 3
+    glow: true
+  ametystowe-buty:
+    category: "Zbroje"
+    material: CHAINMAIL_BOOTS
+    name: "<light_purple>Ametystowe Buty"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      feather_falling: 5
+      depth_strider: 3
+    glow: true
+  szmaragdowy-helm:
+    category: "Zbroje"
+    material: NETHERITE_HELMET
+    name: "<green>Szmaragdowy Hełm"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      respiration: 3
+      aqua_affinity: 1
+    glow: true
+  szmaragdowy-napiersnik:
+    category: "Zbroje"
+    material: NETHERITE_CHESTPLATE
+    name: "<green>Szmaragdowy Napierśnik"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      thorns: 3
+    glow: true
+  szmaragdowe-spodnie:
+    category: "Zbroje"
+    material: NETHERITE_LEGGINGS
+    name: "<green>Szmaragdowe Spodnie"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      swift_sneak: 3
+    glow: true
+  szmaragdowe-buty:
+    category: "Zbroje"
+    material: NETHERITE_BOOTS
+    name: "<green>Szmaragdowe Buty"
+    enchants:
+      protection: 6
+      blast_protection: 6
+      unbreaking: 5
+      mending: 1
+      feather_falling: 5
+      depth_strider: 3
+    glow: true
+  szmaragdowy-miecz:
+    category: "Bronie"
+    material: NETHERITE_SWORD
+    name: "<green>Szmaragdowy Miecz"
+    enchants:
+      sharpness: 7
+      fire_aspect: 2
+      looting: 4
+      sweeping_edge: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  szmaragdowy-kilof:
+    category: "Narzędzia"
+    material: NETHERITE_PICKAXE
+    name: "<green>Szmaragdowy Kilof"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  szmaragdowy-topor:
+    category: "Narzędzia"
+    material: NETHERITE_AXE
+    name: "<green>Szmaragdowy Topór"
+    enchants:
+      efficiency: 7
+      sharpness: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  szmaragdowa-lopata:
+    category: "Narzędzia"
+    material: NETHERITE_SHOVEL
+    name: "<green>Szmaragdowa Łopata"
+    enchants:
+      efficiency: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  szmaragdowa-motyka:
+    category: "Narzędzia"
+    material: NETHERITE_HOE
+    name: "<green>Szmaragdowa Motyka"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  kosmiczna-rozdzka:
+    category: "Dodatki"
+    material: BREEZE_ROD
+    name: "<light_purple>Kosmiczna Różdżka"
+    glow: true
+  fioletowa-laska:
+    category: "Dodatki"
+    material: BLAZE_ROD
+    name: "<dark_purple>Fioletowa Laska"
+    glow: true
+  plecak:
+    category: "Dodatki"
+    material: BUNDLE
+    name: "<light_purple>Plecak"
+  banknot:
+    category: "Dodatki"
+    material: PAPER
+    name: "<green>Banknot"
+    glow: true
+  granat:
+    category: "Dodatki"
+    material: FIRE_CHARGE
+    name: "<red>Granat"
+    glow: true
+  ksiega-pustki:
+    category: "Dodatki"
+    material: ENCHANTED_BOOK
+    name: "<dark_purple>Księga Pustki"
+  magiczna-pajeczyna:
+    category: "Dodatki"
+    material: COBWEB
+    name: "<white>Magiczna Pajęczyna"
+    glow: true
+  serce:
+    category: "Dodatki"
+    material: RED_DYE
+    name: "<red>Serce"
+    glow: true
+  duze-serce:
+    category: "Dodatki"
+    material: REDSTONE
+    name: "<dark_red>Duże Serce"
+    glow: true
+  skrzynia-ametystowa:
+    category: "Klucze"
+    material: PURPLE_SHULKER_BOX
+    name: "<light_purple>Skrzynia Ametystowa"
+  woreczek-skarbow:
+    category: "Klucze"
+    material: BUNDLE
+    name: "<gold>Woreczek Skarbów"
+  skrzynia-kosmiczna:
+    category: "Klucze"
+    material: MAGENTA_SHULKER_BOX
+    name: "<light_purple>Skrzynia Kosmiczna"
+  skrzynia-legendarna:
+    category: "Klucze"
+    material: ENDER_CHEST
+    name: "<dark_purple>Skrzynia Legendarna"
+  klucz-zloty:
+    category: "Klucze"
+    material: GOLD_INGOT
+    name: "<yellow>Klucz Złoty"
+    glow: true
+  klucz-diamentowy:
+    category: "Klucze"
+    material: DIAMOND
+    name: "<aqua>Klucz Diamentowy"
+    glow: true
+  klucz-fioletowy:
+    category: "Klucze"
+    material: AMETHYST_SHARD
+    name: "<light_purple>Klucz Fioletowy"
+    glow: true
+  klucz-szmaragdowy:
+    category: "Klucze"
+    material: EMERALD
+    name: "<green>Klucz Szmaragdowy"
+    glow: true
+  klucz-legendarny:
+    category: "Klucze"
+    material: NETHER_STAR
+    name: "<gold>Klucz Legendarny"
+    glow: true
+  ostrze-cienia:
+    category: "Bronie"
+    material: IRON_SWORD
+    name: "<dark_gray>Ostrze Cienia"
+    enchants:
+      sharpness: 7
+      fire_aspect: 2
+      looting: 4
+      sweeping_edge: 3
+      unbreaking: 5
+      mending: 1
+    glow: true
+  mroczny-mlot:
+    category: "Bronie"
+    material: NETHERITE_AXE
+    name: "<dark_gray>Mroczny Młot"
+    enchants:
+      efficiency: 7
+      sharpness: 7
+      unbreaking: 5
+      mending: 1
+    glow: true
+  lodowy-krysztal:
+    category: "Dodatki"
+    material: PRISMARINE_SHARD
+    name: "<aqua>Lodowy Kryształ"
+    glow: true
+  plomienny-rdzen:
+    category: "Dodatki"
+    material: BLAZE_POWDER
+    name: "<gold>Płomienny Rdzeń"
+    glow: true
+  kosmiczny-krysztal:
+    category: "Dodatki"
+    material: ECHO_SHARD
+    name: "<light_purple>Kosmiczny Kryształ"
+    glow: true
+  cukierek:
+    category: "Dodatki"
+    material: COOKIE
+    name: "<red>Cukierek"
+  zloty-kilof:
+    category: "Narzędzia"
+    material: GOLDEN_PICKAXE
+    name: "<gold>Złoty Kilof"
+    enchants:
+      efficiency: 7
+      fortune: 4
+      unbreaking: 5
+      mending: 1
+    glow: true
+  glowa-szkieleta:
+    category: "Głowy"
+    material: SKELETON_SKULL
+    name: "<white>Głowa Szkieleta"
+  glowa-witherka:
+    category: "Głowy"
+    material: WITHER_SKELETON_SKULL
+    name: "<dark_gray>Głowa Witherka"
+  glowa-zombie:
+    category: "Głowy"
+    material: ZOMBIE_HEAD
+    name: "<green>Głowa Zombie"
+  glowa-creepera:
+    category: "Głowy"
+    material: CREEPER_HEAD
+    name: "<green>Głowa Creepera"
+  glowa-piglina:
+    category: "Głowy"
+    material: PIGLIN_HEAD
+    name: "<gold>Głowa Piglina"
+  glowa-smoka:
+    category: "Głowy"
+    material: DRAGON_HEAD
+    name: "<dark_purple>Głowa Smoka"
+  totem-pustki:
+    category: "Dodatki"
+    material: TOTEM_OF_UNDYING
+    name: "<dark_purple>Totem Pustki"
+    glow: true
+  czarna-skrzynia:
+    category: "Dodatki"
+    material: BLACK_SHULKER_BOX
+    name: "<dark_gray>Czarna Skrzynia"
